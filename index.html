@@ -25,18 +25,22 @@
             <p>Save the planet, go green when choosing energy options!</p>
         </div>
         <div class="toggle">
-            <button data-key="wind" id="active-button"><i class="fas fa-wind"></i></button>
-            <button data-key="solar"><i class="fas fa-sun"></i></button>
-            <button data-key="hydro"><i class="fas fa-water"></i></button>
+            <button data-key="wind" id="active-button"><i class="fas fa-wind"
+                    style="color: #FFC107; font-size: 2em;"></i></button>
+            <button data-key="solar"><i class="fas fa-sun" style="color: #FFC107; font-size: 2em;"></i></button>
+            <button data-key="hydro"><i class="fas fa-water" style="color: #FFC107; font-size: 2em;"></i></button>
         </div>
-        <div class="dynamic-content">
+        <div class="dynamic-content" id="dynamic-content">
             <h2>Wind Energy</h2>
-            <img class="image-in-box" src="./img/wind-farm-1214436.jpg">
-            <p>Affordable wind energy is a cost-effective and sustainable solution for electricity generation. With
-                declining costs and no fuel expenses, it's becoming increasingly competitive with fossil fuels. This
-                affordability fosters widespread adoption, empowering communities and countries to access clean,
-                renewable energy while reducing their environmental impact.</p>
-
+            <div class="dynamic-child">
+                <div class="dynamic-image">
+                    <img class="img-in-box" src="./img/wind-farm-1214436.jpg">
+                </div>
+                <p>Affordable wind energy is a cost-effective and sustainable solution for electricity generation. With
+                    declining costs and no fuel expenses, it's becoming increasingly competitive with fossil fuels. This
+                    affordability fosters widespread adoption, empowering communities and countries to access clean,
+                    renewable energy while reducing their environmental impact.</p>
+            </div>
         </div>
     </main>
     <footer>
@@ -48,6 +52,6 @@
         </div>
         <p>2023 All rights reserved.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
